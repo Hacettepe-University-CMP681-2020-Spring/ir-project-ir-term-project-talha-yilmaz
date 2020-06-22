@@ -2,7 +2,7 @@ import tensorflow as tf
 from tensorflow.python.keras.layers import Layer
 from tensorflow.python.keras import backend as K
 
-
+#Taken from: https://machinelearningmastery.com/encoder-decoder-attention-sequence-to-sequence-prediction-keras/
 class AttentionLayer(Layer):
     """
     This class implements Bahdanau attention (https://arxiv.org/pdf/1409.0473.pdf).
