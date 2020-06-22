@@ -41,7 +41,7 @@ for original_and_expanded_query in original_and_expanded_queries:
 
     expanded_rank_of_top_relevant_tweet = all_tweets_by_relevance_expanded.index(top_relevant_tweet[0].strip())+1
 
-    if original_query != expanded_query:
-        reciprocal_rank += 1/expanded_rank_of_top_relevant_tweet
+    #if original_query != expanded_query:
+    reciprocal_rank += 1/expanded_rank_of_top_relevant_tweet
 
 print("Mean Reciprocal Rank = ", reciprocal_rank/len(tweets))
