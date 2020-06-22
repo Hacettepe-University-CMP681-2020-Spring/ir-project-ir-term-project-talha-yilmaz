@@ -1,5 +1,7 @@
 CMP681 - Neural Query Expansion Project
+
 İsmail Talha Yılmaz
+
 N18140956
 
 ExtractTweets.py -> extraction of tweets from JSON file
@@ -15,6 +17,9 @@ ExpandQueriesByEmbeddingSimilarity.py -> calculate similar predicted query words
 Evaluate.py -> Evaluation of overall system
 
 
+
 External Sources: 
+
 Google News pre-trained embeddings were used
+
 TREC 2011 Microblog dataset is used
