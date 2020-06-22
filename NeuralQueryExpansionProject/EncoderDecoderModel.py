@@ -206,7 +206,7 @@ def seq2tweet(input_seq):
 
 predicted_query_tweets = list()
 
-for i in range(len(querytweets)-(len(querytweets)//10)):
+for i in range(len(querytweets)-(len(querytweets)//10)+1):
     tweet = seq2tweet(x_train[i])
     original_query = seq2query(y_train[i])
     predicted_query = decode_sequence(x_train[i].reshape(1,max_tweet_len))
